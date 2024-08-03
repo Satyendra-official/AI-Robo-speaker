@@ -7,12 +7,12 @@ print("Welcome to Robo Speaker ")
 
 speak = wincom.Dispatch("SAPI.SpVoice")
 
-# text = "Python text-to-speech test. using win32com.client"
-# speak.Speak(text)
+text = "Python text-to-speech test. using win32com.client"
+speak.Speak(text)
 
 speak.Speak("Hello satya")
 # 3-second sleep
-# time.sleep(3)
+time.sleep(3)
 
 # text = "This text is read after 3 seconds"
 # speak.Speak(text)
